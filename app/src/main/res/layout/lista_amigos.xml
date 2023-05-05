@@ -5,21 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <SearchView
-        android:id="@+id/searchView"
+    <EditText
+        android:id="@+id/txtBuscarAmigos"
+        android:hint="Buscar amigos"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:queryHint="Buscar" />
-
+        android:layout_height="wrap_content"/>
     <ListView
-        android:id="@+id/ltsWoman"
+        android:id="@+id/ltsAmigos"
+        android:layout_marginTop="60dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/searchView"
-        android:layout_marginTop="6dp" />
+        android:layout_height="match_parent"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/btnmujer"
+        android:id="@+id/btnAgregarAmigos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
